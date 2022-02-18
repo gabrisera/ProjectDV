@@ -1,0 +1,81 @@
+h1{
+    color:brown;
+    text-align: center;
+    width:100%;
+}
+p{ 
+    font-weight:bold;
+    text-align:center;
+}
+div{
+    text-align:center;
+ 
+}
+
+#map{
+    margin:auto;
+    margin-bottom: 15%;
+    margin-top: 5%;
+    width:70%;
+
+    height:500px;
+    text-align:center;
+    
+   
+}
+#scatter{
+    display:none;
+    
+    float: left;
+    text-align:center;
+    width:43%;
+    height:350px;
+   margin-left:5%;
+   margin-right:4%;
+   
+}
+#linear{
+    display:none;
+    float:left;
+  
+    width:43%;
+    height:350px;
+    margin-right:5%;
+    
+   
+}
+#bars{
+    display:none;
+ 
+    width:60%;
+    margin-left:20%;
+    margin-right:20%;
+    height:400px;
+    
+    margin-top:5%;
+    margin-bottom:50px; 
+   
+   
+}
+
+#container{
+    display:flex;
+    
+}
+#btn-zoom {
+    text-align: right;    
+    width:100%;
+
+  }
+  svg{
+      text-align: center;
+      
+     
+  }
+  g{ position:relative;
+     left:20px;
+  }
+
+rect:hover{
+     fill:#e6e273;
+}
